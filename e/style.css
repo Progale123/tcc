@@ -1,3 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 body {
-    background-color: rgb(138, 185, 226);
+  height: 100vh;
+  background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
+  display: flex;
+  flex-direction: column;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.config a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #e6e6e6;
+  padding: 40px;
+  border-radius: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Botões */
+.btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #cfcfcf;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b5b5b5;
+}
+
+.ajuda {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
 }
