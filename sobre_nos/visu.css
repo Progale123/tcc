@@ -1,16 +1,28 @@
-.card {
+  .card {
   width: 400px;
-  height: 250px;
-
+  height: 280px;
   background: white;
-
   border-radius: 40px;
-
   padding: 20px;
+   margin:0 auto;
 }
 body {
   height: 100vh;
   background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
   display: flex;
   flex-direction: column;
+  text-align: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p {
+  text-align: center;
+}
+a {
+  border-radius: 40px;
+      position: absolute;
+    bottom: 20px; 
+    left: 20px;
 }
