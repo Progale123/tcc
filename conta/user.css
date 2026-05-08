@@ -1,0 +1,31 @@
+* body {
+    height: 100vh;
+  background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+  width: 400px;
+  height: 120px;
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+   margin:0 auto;
+}
+
+.topo {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+} 
