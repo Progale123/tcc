@@ -12,7 +12,7 @@
 
 .card {
   width: 400px;
-  height: 120px;
+  height: 100px;
   background: white;
   border-radius: 40px;
   padding: 20px;
@@ -20,12 +20,24 @@
 }
 
 .topo {
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
   padding: 15px 30px;
 }
+
 .logo {
   font-size: 28px;
   font-weight: bold;
 } 
+
+.rertunr {
+  border-radius: 40px;
+      position: absolute;
+    bottom: 20px; 
+    left: 20px;
+}
+
+.form {
+  border-radius: 10%;
+}
