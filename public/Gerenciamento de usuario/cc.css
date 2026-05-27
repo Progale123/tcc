@@ -64,3 +64,11 @@ body{
 
   transition: 0.3s;
 }
+
+.menu-btn.active{
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.9),
+    #0066ff
+  );
+}
