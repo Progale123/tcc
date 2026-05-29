@@ -14,3 +14,14 @@
     top: 10px;
     left: 10px;
 }
+.botões {
+    display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #cfcfcf;
+  cursor: pointer;
+  transition: 0.3s;
+}
