@@ -1,0 +1,14 @@
+body {
+    background: radial-gradient(to top #ffffff, #c9c1e5);
+    color: black;
+}
+
+table {
+    width: 150%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: aqua;
+}
