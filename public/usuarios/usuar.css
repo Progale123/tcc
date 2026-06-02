@@ -13,12 +13,53 @@ body {
     ;
 }
 
-.bloco {
-    width: 180%;
-    margin: 0px auto;
-    border-collapse: collapse;
+
+.menu {
+    width: 300px;
+    margin: 90 auto;
+    word-spacing: 500px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
 }
 
+.retangulo {
+    width: 240px;
+
+  padding: 20px 15px;
+
+  background: rgba(120, 120, 255, 0.55);
+
+  backdrop-filter: blur(6px);
+}
+
+.bloco {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 30vh; 
+}
+
+.top {
+    color: green;
+}
 .top1 {
     background-color: white;
+}
+
+.btn {
+    background-color: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+td {
+    width: 100%;
+    text-align: center;
+}
+.editar-btn {
+    background-color: rgb(126, 132, 255) ;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
 }
