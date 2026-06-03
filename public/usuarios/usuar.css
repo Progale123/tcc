@@ -39,10 +39,27 @@ body {
     height: 30vh; 
 }
 
+.retangulo-tbl {
+    width: 500px;
+
+  padding: 20px 15px;
+
+  background: rgba(255, 255, 255, 0.55);
+
+  backdrop-filter: blur(6px);
+}
+
 .top {
+    font-family: segoe ui;
     color: green;
 }
 .top1 {
+    font-family: gothic medium;
+    background-color: white;
+}
+
+.top2 {
+    font-family: segoe ui;
     background-color: white;
 }
 
@@ -58,7 +75,7 @@ td {
     text-align: center;
 }
 .editar-btn {
-    background-color: rgb(126, 132, 255) ;
+    background-color: transparent;
   border: none;
   box-shadow: none;
   cursor: pointer;
