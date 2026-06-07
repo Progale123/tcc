@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     height: 100vh;
 
@@ -14,6 +21,12 @@ body {
 }
 
 
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .menu {
     width: 300px;
     margin: 90 auto;
@@ -23,13 +36,11 @@ body {
 }
 
 .retangulo {
-    width: 240px;
-
-  padding: 20px 15px;
-
+  width: 280px;
+  padding: 10px 20px;
   background: rgba(120, 120, 255, 0.55);
-
   backdrop-filter: blur(6px);
+  height: 100vh;
 }
 
 .bloco {
@@ -49,25 +60,42 @@ body {
   backdrop-filter: blur(6px);
 }
 
-.top {
-    font-family: segoe ui;
-    color: green;
-}
-.top1 {
+.top-tbl {
     font-family: gothic medium;
     background-color: white;
 }
 
-.top2 {
+.top1-tbl {
+    font-family: segoe ui;
+    color: green;
+}
+
+
+.top2-tbl {
     font-family: segoe ui;
     background-color: white;
 }
 
 .btn {
-    background-color: transparent;
+      width: 75%;
+  margin: 5px 0;
+  padding: 5px;
   border: none;
-  box-shadow: none;
+  border-radius: 20px;
+  background-color: aquamarine;
   cursor: pointer;
+  transition: 0.3s;
+}
+.btn-usu {
+  display: block;
+  width: 75%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #07e0f0;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 td {
@@ -75,8 +103,8 @@ td {
     text-align: center;
 }
 .editar-btn {
-    background-color: transparent;
+  background-color: transparent;
   border: none;
   box-shadow: none;
-  cursor: pointer;
+  cursor: pointer;  
 }
