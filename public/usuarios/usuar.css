@@ -37,7 +37,7 @@ body {
 
 .retangulo {
   width: 280px;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background: rgba(120, 120, 255, 0.55);
   backdrop-filter: blur(6px);
   height: 100vh;
@@ -47,7 +47,7 @@ body {
     display: flex;
     justify-content: top;
     align-items: center;
-    height: 30vh; 
+    height: 100vh;
 }
 
 .retangulo-tbl {
@@ -61,7 +61,7 @@ body {
 }
 
 .top-tbl {
-    font-family: gothic medium;
+    font-family: sans-serif;
     background-color: white;
 }
 
@@ -73,38 +73,66 @@ body {
 
 .top2-tbl {
     font-family: segoe ui;
-    background-color: white;
+    color: green;
+}
+
+.top3-tbl {
+    font-family: segoe ui;
+    color: green;
+}
+
+.top4-tbl {
+    font-family: segoe ui;
+    color: red;
+}
+
+.top5-tbl {
+    font-family: segoe ui;
+    color: green;
 }
 
 .btn {
       width: 75%;
-  margin: 5px 0;
-  padding: 5px;
+  margin: 10px 0;
+  padding: 10px;
   border: none;
   border-radius: 20px;
-  background-color: aquamarine;
+  background-color: aqua;
   cursor: pointer;
   transition: 0.3s;
 }
+
 .btn-usu {
   display: block;
   width: 75%;
   margin: 10px 0;
   padding: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius:20px;
   background: #07e0f0;
   cursor: pointer;
   transition: 0.3s;
 }
 
 td {
-    width: 100%;
+    width: 30%;
     text-align: center;
 }
 .editar-btn {
   background-color: transparent;
   border: none;
   box-shadow: none;
-  cursor: pointer;  
+  cursor: pointer; 
+  color: blue; 
+}
+
+.logo {
+    font-family: 'Arial', sans-serif;
+}
+
+.ver-mais {
+    margin-left: 15px;
+    font-family: segoe ui;
+    background-color: aqua;
+    border-radius: 30px;
 }
