@@ -13,7 +13,7 @@
 .card {
   width: 400px;
   height: 100px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 40px;
   padding: 20px;
    margin:0 auto;
@@ -23,4 +23,8 @@
   justify-content: space-around;
   align-items:center;
   padding: 15px 30px;
+}
+
+.menu{
+  background-color: #3f46c7;
 }
