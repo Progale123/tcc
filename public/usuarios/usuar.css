@@ -67,28 +67,23 @@ body {
 
 .top1-tbl {
     font-family: segoe ui;
-    color: green;
 }
 
 
 .top2-tbl {
     font-family: segoe ui;
-    color: green;
 }
 
 .top3-tbl {
     font-family: segoe ui;
-    color: green;
 }
 
 .top4-tbl {
     font-family: segoe ui;
-    color: red;
 }
 
 .top5-tbl {
     font-family: segoe ui;
-    color: green;
 }
 
 .btn {
@@ -131,8 +126,16 @@ td {
 }
 
 .ver-mais {
-    margin-left: 15px;
+    margin-left: 0px;
     font-family: segoe ui;
     background-color: aqua;
-    border-radius: 30px;
+    border-radius: 20px;
+}
+
+.ativo {
+    color: green;
+}
+
+.desativado {
+    color: red;
 }
