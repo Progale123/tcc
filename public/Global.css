@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
+  font-family: Arial, sans-serif; 
+}
+
+
+.container-pai {
+  display: flex;
+  align-items: center; 
+  height: 100vh;
+}
+
+
+.SideBar {
+  width: 25vw;
+  height: 100vh;
+  background: linear-gradient(to top, #d9d9d9, #3f46c7);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 30px;
+}
+
+
+.Btns {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
+  background: transparent;
+  z-index: 0;
+  overflow: hidden;
+  color: #000;
+  padding: 12px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  width: 86%;
+}
+
+.Btns:hover {
+cursor: pointer;
+text-decoration: underline;
+}
+
+.Btns::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  
+  background: linear-gradient(#f0f0f0, #3f46c7);
+  z-index: -1;
+  overflow: hidden;
+  opacity: 0;
+
+  transition: opacity 0.4s ease;
+}
+
+.Btns:hover::before {
+  opacity: 1;
+}
+
+h1 {
+  color: #000;
+  font-size: 2rem;
+}
+
+.Titulo-Logo {
+  font-size: 2.2rem;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Inria Serif', serif;
+  letter-spacing: 2px;
+  
+  text-align: center;
+}
