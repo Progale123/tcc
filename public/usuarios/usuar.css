@@ -7,24 +7,21 @@
 
 body {
     height: 100vh;
-
     display: flex;
-
     background: linear-gradient(
         180deg,
         #f4f4f8 0%,
         #c5c7ff 45%,
         #3b3bff 100%
-    )
-    
-    ;
+    );
 }
 
 
 
 .logo {
     font-size: 28px;
-    font-weight: bold;
+    margin-top: 10%;
+    font-family: 'Arial', sans-serif;
 }
 
 .menu {
@@ -33,6 +30,7 @@ body {
     word-spacing: 500px;
     font-family: Arial, sans-serif;
     text-decoration: none;
+    margin-top: 50%;
 }
 
 .retangulo {
@@ -52,42 +50,49 @@ body {
 
 .retangulo-tbl {
     width: 500px;
-
-  padding: 20px 15px;
-
-  background: rgba(255, 255, 255, 0.55);
-
-  backdrop-filter: blur(6px);
+    height: 280px;
+    border-radius: 40px;
+    padding: 20px 20px;
+    background: white;
+    backdrop-filter: blur(6px);
+    margin-left: 350px;
 }
 
 .top-tbl {
     font-family: sans-serif;
     background-color: white;
+    border: none;
+    border-color: transparent;
 }
 
 .top1-tbl {
     font-family: segoe ui;
+    border: none;
 }
 
 
 .top2-tbl {
     font-family: segoe ui;
+    border: none;
 }
 
 .top3-tbl {
     font-family: segoe ui;
+    border: none;
 }
 
 .top4-tbl {
     font-family: segoe ui;
+    border: none;
 }
 
 .top5-tbl {
     font-family: segoe ui;
+    border: none;
 }
 
 .btn {
-      width: 75%;
+  width: 75%;
   margin: 10px 0;
   padding: 10px;
   border: none;
@@ -95,10 +100,11 @@ body {
   background-color: aqua;
   cursor: pointer;
   transition: 0.3s;
+  font-family: segoe ui;
+  border-color: transparent;
 }
 
 .btn-usu {
-  display: block;
   width: 75%;
   margin: 10px 0;
   padding: 10px;
@@ -107,22 +113,22 @@ body {
   background: #07e0f0;
   cursor: pointer;
   transition: 0.3s;
+  font-family: segoe ui;
+  border-color: transparent;
 }
 
 td {
     width: 30%;
     text-align: center;
+    border: none;
 }
+
 .editar-btn {
   background-color: transparent;
   border: none;
   box-shadow: none;
   cursor: pointer; 
-  color: blue; 
-}
-
-.logo {
-    font-family: 'Arial', sans-serif;
+  color: blue;
 }
 
 .ver-mais {
@@ -130,6 +136,22 @@ td {
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.novo-usu {
+    margin-left: 175px;
+    font-family: segoe ui;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 .ativo {
