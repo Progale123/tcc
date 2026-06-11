@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+
+    background: linear-gradient(
+        180deg,
+        #f4f4f8 0%,
+        #c5c7ff 45%,
+        #3b3bff 100%
+    )
+    
+    ;
+}
+
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    width: 300px;
+    margin: 90 auto;
+    word-spacing: 500px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.retangulo {
+  width: 280px;
+  padding: 20px 20px;
+  background: rgba(120, 120, 255, 0.55);
+  backdrop-filter: blur(6px);
+  height: 100vh;
+}
+
+.bloco {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+}
+
+.retangulo-tbl {
+    width: 500px;
+
+  padding: 20px 15px;
+
+  background: rgba(255, 255, 255, 0.55);
+
+  backdrop-filter: blur(6px);
+}
+
+.top-tbl {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.top1-tbl {
+    font-family: segoe ui;
+}
+
+
+.top2-tbl {
+    font-family: segoe ui;
+}
+
+.top3-tbl {
+    font-family: segoe ui;
+}
+
+.top4-tbl {
+    font-family: segoe ui;
+}
+
+.top5-tbl {
+    font-family: segoe ui;
+}
+
+.btn {
+      width: 75%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: aqua;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-usu {
+  display: block;
+  width: 75%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius:20px;
+  background: #07e0f0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+td {
+    width: 30%;
+    text-align: center;
+}
+.editar-btn {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: pointer; 
+  color: blue; 
+}
+
+.logo {
+    font-family: 'Arial', sans-serif;
+}
+
+.ver-mais {
+    margin-left: 0px;
+    font-family: segoe ui;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.ativo {
+    color: green;
+}
+
+.desativado {
+    color: red;
+}
