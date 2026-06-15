@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
 body {
     height: 100vh;
     display: flex;
@@ -16,109 +9,112 @@ body {
     );
 }
 
-
-
-.logo {
-    font-size: 28px;
-    margin-top: 10%;
-    font-family: 'Arial', sans-serif;
-}
-
-.menu {
-    width: 300px;
-    margin: 90 auto;
-    word-spacing: 500px;
-    font-family: Arial, sans-serif;
-    text-decoration: none;
-    margin-top: 50%;
-}
-
-.retangulo {
-  width: 280px;
-  padding: 20px 20px;
-  background: rgba(120, 120, 255, 0.55);
-  backdrop-filter: blur(6px);
-  height: 100vh;
-}
-
 .bloco {
     display: flex;
     justify-content: top;
     align-items: center;
     height: 100vh;
+    width: 100vh;
 }
 
 .retangulo-tbl {
-    width: 500px;
-    height: 280px;
-    border-radius: 40px;
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
     padding: 20px 20px;
     background: white;
     backdrop-filter: blur(6px);
-    margin-left: 350px;
+    margin-left: 225px;
 }
 
 .top-tbl {
-    font-family: sans-serif;
-    background-color: white;
+    font-weight: bold;
+    font-family: segoe ui;
     border: none;
-    border-color: transparent;
+    height: 5vh;
+    background-color: aqua;
 }
 
 .top1-tbl {
     font-family: segoe ui;
     border: none;
+    height: 5vh;
 }
 
 
 .top2-tbl {
     font-family: segoe ui;
     border: none;
+    height: 5vh;
 }
 
 .top3-tbl {
     font-family: segoe ui;
     border: none;
+    height: 5vh;
 }
 
 .top4-tbl {
     font-family: segoe ui;
     border: none;
+    height: 5vh;
 }
 
 .top5-tbl {
     font-family: segoe ui;
     border: none;
+    height: 5vh;
 }
 
-.btn {
-  width: 75%;
-  margin: 10px 0;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  background-color: aqua;
-  cursor: pointer;
-  transition: 0.3s;
-  font-family: segoe ui;
-  border-color: transparent;
+.top6-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
 }
 
-.btn-usu {
-  width: 75%;
-  margin: 10px 0;
-  padding: 10px;
-  border: none;
-  border-radius:20px;
-  background: #07e0f0;
-  cursor: pointer;
-  transition: 0.3s;
-  font-family: segoe ui;
-  border-color: transparent;
+.top7-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+}
+.top8-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+}
+.top9-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+}
+.top10-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+}
+
+.top11-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+}
+
+.top12-tbl {
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+}
+
+.ativo {
+    color: green;
+}
+
+.desativado {
+    color: red;
 }
 
 td {
-    width: 30%;
+    width: 26.4%;
     text-align: center;
     border: none;
 }
@@ -129,9 +125,13 @@ td {
   box-shadow: none;
   cursor: pointer; 
   color: blue;
+  height: 5vh;
+  font-weight: bold;
+  width: 2vh;
 }
 
 .ver-mais {
+    font-weight: bold;
     margin-left: 0px;
     font-family: segoe ui;
     background-color: aqua;
@@ -141,10 +141,12 @@ td {
     padding: 5px;
     border-color: transparent;
     cursor: pointer;
+    
 }
 
 .novo-usu {
-    margin-left: 175px;
+    font-weight: bold;
+    margin-left: 285px;
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
@@ -154,10 +156,11 @@ td {
     cursor: pointer;
 }
 
-.ativo {
-    color: green;
-}
-
-.desativado {
-    color: red;
+.travado {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 55vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
