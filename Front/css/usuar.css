@@ -1,46 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
 body {
     height: 100vh;
-
     display: flex;
-
     background: linear-gradient(
         180deg,
         #f4f4f8 0%,
         #c5c7ff 45%,
         #3b3bff 100%
-    )
-    
-    ;
-}
-
-
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.menu {
-    width: 300px;
-    margin: 90 auto;
-    word-spacing: 500px;
-    font-family: Arial, sans-serif;
-    text-decoration: none;
-}
-
-.retangulo {
-  width: 280px;
-  padding: 20px 20px;
-  background: rgba(120, 120, 255, 0.55);
-  backdrop-filter: blur(6px);
-  height: 100vh;
+    );
 }
 
 .bloco {
@@ -48,91 +14,115 @@ body {
     justify-content: top;
     align-items: center;
     height: 100vh;
+    width: 100vh;
 }
 
 .retangulo-tbl {
-    width: 500px;
-
-  padding: 20px 15px;
-
-  background: rgba(255, 255, 255, 0.55);
-
-  backdrop-filter: blur(6px);
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background: white;
+    backdrop-filter: blur(6px);
+    margin-left: 225px;
 }
 
 .top-tbl {
-    font-family: sans-serif;
-    background-color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    height: 5vh;
+    color: gray;
 }
 
 .top1-tbl {
+    font-weight: bold;
     font-family: segoe ui;
-    color: green;
+    border: none;
+    height: 5vh;
 }
 
 
 .top2-tbl {
+    font-weight: bold;
     font-family: segoe ui;
-    color: green;
+    border: none;
+    height: 6vh;
 }
 
 .top3-tbl {
+    font-weight: bold;
     font-family: segoe ui;
-    color: green;
+    border: none;
+    height: 6vh;
 }
 
 .top4-tbl {
+    font-weight: bold;
     font-family: segoe ui;
-    color: red;
+    border: none;
+    height: 6vh;
 }
 
 .top5-tbl {
+    font-weight: bold;
     font-family: segoe ui;
+    border: none;
+    height: 6vh;
+}
+
+.ativo {
     color: green;
 }
 
-.btn {
-      width: 75%;
-  margin: 10px 0;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  background-color: aqua;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn-usu {
-  display: block;
-  width: 75%;
-  margin: 10px 0;
-  padding: 10px;
-  border: none;
-  border-radius:20px;
-  background: #07e0f0;
-  cursor: pointer;
-  transition: 0.3s;
+.desativado {
+    color: red;
 }
 
 td {
-    width: 30%;
+    width: 26.4%;
     text-align: center;
+    border: none;
 }
+
 .editar-btn {
   background-color: transparent;
   border: none;
   box-shadow: none;
   cursor: pointer; 
-  color: blue; 
-}
-
-.logo {
-    font-family: 'Arial', sans-serif;
+  color: blue;
+  text-decoration: none;
 }
 
 .ver-mais {
-    margin-left: 15px;
+    font-weight: bold;
+    margin-left: 0px;
     font-family: segoe ui;
     background-color: aqua;
-    border-radius: 30px;
+    border-radius: 20px;
+    display: flex;
+    margin: 10px;
+    width: 75px;
+    padding: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.novo-usu {
+    font-weight: bold;
+    margin-left: 285px;
+    font-family: segoe ui;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    width: 123px;
+    margin-top: 30px;
+    border-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
