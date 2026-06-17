@@ -27,15 +27,21 @@ body {
     margin-left: 225px;
 }
 
+.top-tbl-table {
+    width: 100%;
+    table-layout: fixed ;
+}
+
 .top-tbl {
     font-weight: bold;
-    font-family: segoe ui;
+    font-family: sans-serif;
     border: none;
     height: 5vh;
-    background-color: aqua;
+    color: gray;
 }
 
 .top1-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
     height: 5vh;
@@ -43,66 +49,94 @@ body {
 
 
 .top2-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top3-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top4-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top5-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top6-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top7-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
+
 .top8-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
+
 .top9-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
+
 .top10-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top11-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
 }
 
 .top12-tbl {
+    font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 6vh;
+}
+
+.top13-tbl {
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    height: 6vh;
+}
+
+.top14-tbl {
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    height: 6vh;
 }
 
 .ativo {
@@ -125,9 +159,7 @@ td {
   box-shadow: none;
   cursor: pointer; 
   color: blue;
-  height: 5vh;
-  font-weight: bold;
-  width: 2vh;
+  text-decoration: none;
 }
 
 .ver-mais {
@@ -141,7 +173,6 @@ td {
     padding: 5px;
     border-color: transparent;
     cursor: pointer;
-    
 }
 
 .novo-usu {
@@ -152,15 +183,21 @@ td {
     border-radius: 20px;
     display: flex;
     padding: 10px;
+    width: 123px;
+    margin-top: 30px;
     border-color: transparent;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .travado {
     display: flex;
-    justify-content: top;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
     height: 55vh;
     overflow-x: hidden;
     overflow-y: scroll;
 }
+
