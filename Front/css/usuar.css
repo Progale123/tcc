@@ -13,26 +13,26 @@ body {
     display: flex;
     justify-content: top;
     align-items: center;
-    height: 47vw;
-    width: 60vw;
+    height: 100vh;
 }
 
 .retangulo-tbl {
-    width: 60vw;
-    height: 40vw;
+    width: 50vw;
+    max-width: 1000vw;
+    height: 700px;
+    max-height: 700px;
     border-radius: 20px;
     padding: 20px 20px;
     background: white;
     backdrop-filter: blur(6px);
-    margin-left: 12.5vw;
+    margin-left: 225px;
 }
 
 .top-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
     color: gray;
 }
 
@@ -40,8 +40,7 @@ body {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 
@@ -49,32 +48,28 @@ body {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top3-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top4-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top5-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .ativo {
@@ -98,18 +93,18 @@ td {
   cursor: pointer; 
   color: blue;
   text-decoration: none;
-  width: 1vw;
 }
 
 .ver-mais {
     font-weight: bold;
-    margin-left: 0vw;
+    margin-left: 0px;
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
     display: flex;
-    margin-top: 1vw;
-    width: 5vw;
+    margin-top: 25px;
+    width: 4vw;
+    max-width: 5vw;
     padding: 5px;
     border-color: transparent;
     cursor: pointer;
@@ -120,17 +115,17 @@ td {
 
 .novo-usu {
     font-weight: bold;
-    margin-left: 18.5vw;
+    margin-left: 20.8vw;
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
     display: flex;
-    padding: 10px;
-    margin-top: 2vw;
+    padding: 0.5vw;
+    width: 6.4vw;
+    max-width: 15vw;
+    margin-top: 3vw;
     border-color: transparent;
     cursor: pointer;
     text-decoration: none;
     color: black;
-    width: 8vw;
-    align-items: center;
 }

@@ -13,18 +13,19 @@ body {
     display: flex;
     justify-content: top;
     align-items: center;
-    height: 47vw;
-    width: 60vw;
+    height: 100vh;
 }
 
 .retangulo-tbl {
-    width: 60vw;
-    height: 40vw;
+    width: 50vw;
+    max-width: 1000vw;
+    height: 700px;
+    max-height: 700px;
     border-radius: 20px;
     padding: 20px 20px;
     background: white;
     backdrop-filter: blur(6px);
-    margin-left: 12.5vw;
+    margin-left: 225px;
 }
 
 .top-tbl-table {
@@ -36,8 +37,7 @@ body {
     font-weight: bold;
     font-family: sans-serif;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
     color: gray;
 }
 
@@ -45,8 +45,7 @@ body {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 
@@ -54,104 +53,91 @@ body {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top3-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top4-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top5-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top6-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top7-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top8-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top9-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top10-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top11-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top12-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top13-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .top14-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 4vw;
-    width: 1vw;
+    height: 6vh;
 }
 
 .ativo {
@@ -175,24 +161,23 @@ td {
   cursor: pointer; 
   color: blue;
   text-decoration: none;
-  width: 1vw;
 }
 
 .novo-usu {
     font-weight: bold;
-    margin-left: 20vw;
+    margin-left: 20.8vw;
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
     display: flex;
-    padding: 10px;
-    margin-top: 2vw;
+    padding: 0.5vw;
+    width: 6.4vw;
+    max-width: 15vw;
+    margin-top: 3vw;
     border-color: transparent;
     cursor: pointer;
     text-decoration: none;
     color: black;
-    width: 6.7vw;
-    align-items: center;
 }
 
 .travado {
@@ -200,9 +185,9 @@ td {
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    height: 25vw;
+    height: 22vw;
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 100vh;
+    width: 47.5vw;
 }
 
