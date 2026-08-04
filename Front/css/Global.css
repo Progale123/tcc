@@ -38,6 +38,7 @@ body {
   align-items: center;
   
   background: transparent;
+  text-decoration: none;
   z-index: 0;
   overflow: hidden;
   color: #000;
@@ -46,7 +47,7 @@ body {
   font-weight: bold;
   border: none;
   border-radius: 8px;
-  width: 86%;
+  width: 88%;
 }
 
 .Btns:hover {
