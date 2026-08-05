@@ -22,7 +22,9 @@
 
 .Caixa-De-Texto {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
   margin-top: auto;
 }
 
@@ -41,6 +43,22 @@
 .Caixa-De-Texto input[type="text"]:focus {
   border-color: #000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Caixa-De-Texto button {
+  background: #000;       /* Cor de fundo preta para combinar com o foco */
+  color: white;
+  border: 2px solid #a1a1a1;
+  border-radius: 40px;    /* Mantém o mesmo padrão arredondado do input */
+  padding: 15px 25px;     /* Mesma altura interna do input */
+  font-size: 1rem;
+  font-family: "Inria Serif", serif;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.Caixa-De-Texto button:hover {
+  background: #333;       /* Efeito visual ao passar o mouse */
 }
 
 h1 {
