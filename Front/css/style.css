@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
+  background-color: #4446af;
   display: flex;
   flex-direction: column;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .card {
-  background: #e6e6e6;
+  background: #ffffff;
   padding: 40px;
   border-radius: 30px;
   text-align: center;

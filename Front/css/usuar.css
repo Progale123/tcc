@@ -1,37 +1,33 @@
 body {
     height: 100vh;
     display: flex;
-    background: linear-gradient(
-        180deg,
-        #f4f4f8 0%,
-        #c5c7ff 45%,
-        #3b3bff 100%
-    );
+    background-color: #4446af;
 }
 
 .bloco {
     display: flex;
     justify-content: top;
     align-items: center;
-    height: 100vh;
-    width: 100vh;
+    height: 47vw;
+    width: 60vw;
 }
 
 .retangulo-tbl {
-    width: 100%;
-    height: 700px;
+    width: 60vw;
+    height: 40vw;
     border-radius: 20px;
     padding: 20px 20px;
     background: white;
     backdrop-filter: blur(6px);
-    margin-left: 225px;
+    margin-left: 12.5vw;
 }
 
 .top-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 4vw;
+    width: 1vw;
     color: gray;
 }
 
@@ -39,7 +35,8 @@ body {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 5vh;
+    height: 4vw;
+    width: 1vw;
 }
 
 
@@ -47,28 +44,32 @@ body {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 6vh;
+    height: 4vw;
+    width: 1vw;
 }
 
 .top3-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 6vh;
+    height: 4vw;
+    width: 1vw;
 }
 
 .top4-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 6vh;
+    height: 4vw;
+    width: 1vw;
 }
 
 .top5-tbl {
     font-weight: bold;
     font-family: segoe ui;
     border: none;
-    height: 6vh;
+    height: 4vw;
+    width: 1vw;
 }
 
 .ativo {
@@ -92,17 +93,18 @@ td {
   cursor: pointer; 
   color: blue;
   text-decoration: none;
+  width: 1vw;
 }
 
 .ver-mais {
     font-weight: bold;
-    margin-left: 0px;
+    margin-left: 0vw;
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
     display: flex;
-    margin: 10px;
-    width: 75px;
+    margin-top: 1vw;
+    width: 5vw;
     padding: 5px;
     border-color: transparent;
     cursor: pointer;
@@ -113,16 +115,17 @@ td {
 
 .novo-usu {
     font-weight: bold;
-    margin-left: 285px;
+    margin-left: 18.5vw;
     font-family: segoe ui;
     background-color: aqua;
     border-radius: 20px;
     display: flex;
     padding: 10px;
-    width: 123px;
-    margin-top: 30px;
+    margin-top: 2vw;
     border-color: transparent;
     cursor: pointer;
     text-decoration: none;
     color: black;
+    width: 8vw;
+    align-items: center;
 }
