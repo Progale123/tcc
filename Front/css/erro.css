@@ -1,0 +1,79 @@
+body {
+    height: 98.3vh;
+    display: flex;
+    background: linear-gradient(
+        180deg,
+        #f4f4f8 0%, 
+        #c5c7ff 45%, 
+        #3b3bff 100%
+    );
+}
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    flex-direction: column;
+    display: flex;
+    gap: 8vw;
+}
+
+.logo {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.avisos {
+    text-align: center;
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+
+.aviso2 {
+    color: #c7c5c5;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.tente {
+    overflow: hidden;
+    width: 18vw;
+    cursor: pointer;
+    margin-left: 20vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-color: transparent;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 30px;
+    transition: transform 0.5s ease;
+}
+
+.tente:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.ajuda {
+    overflow: hidden;
+    width: 18vw;
+    margin-left: 25vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-color: transparent;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.ajuda:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}

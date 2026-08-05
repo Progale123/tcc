@@ -3,8 +3,8 @@ body {
     display: flex;
     background: linear-gradient(
         180deg,
-        #f4f4f8 0%,
-        #c5c7ff 45%,
+        #f4f4f8 0%, 
+        #c5c7ff 45%, 
         #3b3bff 100%
     );
 }
@@ -171,13 +171,14 @@ td {
     border-radius: 20px;
     display: flex;
     padding: 0.5vw;
-    width: 6.4vw;
+    width: 7.7vw;
     max-width: 15vw;
     margin-top: 3vw;
     border-color: transparent;
     cursor: pointer;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
 .travado {
