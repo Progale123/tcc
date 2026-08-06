@@ -21,10 +21,13 @@ body {
 }
 
 .logo {
-  font-size: 36px;
+  font-size: clamp(1.3rem, 8cqw, 2.5rem);
   font-weight: bold;
   margin-top: 80px;
   margin-bottom: 30px;
+  letter-spacing: 2px;
+  
+  text-align: center;
 }
 
 .card {
