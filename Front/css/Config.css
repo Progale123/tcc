@@ -45,7 +45,6 @@ body {
 .content.show {
   display: flex;
   gap: 10px;
-  background-color: rgb(39, 151, 151);
 }
 
 .content {
