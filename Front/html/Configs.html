@@ -1,22 +1,24 @@
 <!DOCTYPE html>
- <html lang="pt-br">
-   <head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/Global.css">
-    <link rel="stylesheet" href="../css/config.css">
-    <title>Config</title>
-  </head>
+
+    <link rel="stylesheet" href="/Front/css/Config.css">
+    <link rel="stylesheet" href="/Front/css/Global.css">
+    <title>Configurações</title>
+</head>
   <body>
-   <div class="container-pai">
+    <div class="container-pai">
 
       <div class="SideBar">
         <h1 class="Titulo-Logo">NexaDesk</h1>
 
-       <a href="user.html" class="Btns">👥Usuarios</a>
+        <a href="user.html" class="Btns">👥Usuarios</a>
         <div class="Btns">📊Relatorios</div>
         <a href="Chamados.html" class="Btns">📂Chamados</a>
         <a href="Configs.html" class="Btns">🛠️Configurações</a>
@@ -24,5 +26,64 @@
 
       </div>
     </div>
+
+    <div id="container">
+      <div class="config-buttons">
+        <button class="config-btn active" content-id="detalhes-conta">
+          Detalhes da Conta
+        </button>
+        <button class="config-btn" content-id="preferencias">
+          Preferências
+        </button>
+        <button class="config-btn" content-id="gerenciamento-conta">
+          Gerenciamento de Conta
+        </button>
+        <button class="config-btn" content-id="mudar-lingua">
+          Mudar Linguagem
+        </button>
+      </div>
+
+      <div class="config-contents">
+        <div class="content" id="detalhes-conta">
+          <div class="infos">
+            <h1 class="content-title">Detalhes da Conta</h1>
+            <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, dolor vitae? Alias ratione minus placeat accusantium praesentium maxime, facilis recusandae dignissimos reiciendis necessitatibus nemo iste sit possimus. Ad, molestiae dolorem?</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="config-contents">
+        <div class="content" id="preferencias">
+          <div class="infos">
+            <h1 class="content-title">Preferências</h1>
+            <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, dolor vitae? Alias ratione minus placeat accusantium praesentium maxime, facilis recusandae dignissimos reiciendis necessitatibus nemo iste sit possimus. Ad, molestiae dolorem?</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="config-contents">
+        <div class="content" id="gerenciamento-conta">
+          <div class="infos">
+            <h1 class="content-title">Gerenciamento de Conta</h1>
+            <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, dolor vitae? Alias ratione minus placeat accusantium praesentium maxime, facilis recusandae dignissimos reiciendis necessitatibus nemo iste sit possimus. Ad, molestiae dolorem?</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="config-contents">
+        <div class="content" id="mudar-lingua">
+          <div class="infos">
+            <h1 class="content-title">Mudar Linguagem</h1>
+            <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, dolor vitae? Alias ratione minus placeat accusantium praesentium maxime, facilis recusandae dignissimos reiciendis necessitatibus nemo iste sit possimus. Ad, molestiae dolorem?</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/Front/JavaScript/script.js"></script>
   </body>
 </html>

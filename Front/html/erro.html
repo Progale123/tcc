@@ -7,33 +7,28 @@
     <link rel="stylesheet" href="/Front/css/erro.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container">
+        <h1>NexaDesk</h1>
 
-        <div class="logo">
-            <h1 class="Titulo-Logo">Nexadesk</h1>
-        </div>
-
-        <div class="avisos">
-            <h3 class="aviso1">Lamentamos, mas não foi possivel carregar a página.</h3>
-            <h3 class="aviso2">Tente novamente mais tarde.</h3>
-            <h3 class="aviso3">Erro 001</h3>
-        </div>
+        <section class="avisos">
+            <h2>Lamentamos, mas não foi possível carregar a página</h2>
+            <p class="aviso2">Tente novamente mais tarde</p>
+            <span>Erro 001</span>
+        </section>
         <div class="botoes">
-            <button onclick="recarregarPagina()" class="tente">Tente Novamente</button>
-
+            <button onclick="recarregarPagina()" class="btn">Tente Novamente</button>
+    
             <script>
                 function recarregarPagina() {
                     location.reload();
                 }
             </script>
-
-            <a href="/Front/html/Configs.html">
-                <button class="ajuda">Busque Ajuda</button>
+    
+            <a href="/Front/html/chatbot.html" class="btn">
+               <button>Buscar ajuda</button>
             </a>
         </div>
-    </div>
-    
-        
+</main>
     
 </body>
 </html>
