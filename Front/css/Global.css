@@ -5,8 +5,8 @@
 }
 
 body {
-  height: 100vh;
-  background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
+  height: 100vh;     
+  background-color:  #4446af;
   font-family: Arial, sans-serif; 
 }
 
@@ -19,14 +19,14 @@ body {
 
 
 .SideBar {
-  width: 25vw;
+  width: 20vw;
   height: 100vh;
-  background: linear-gradient(to top, #d9d9d9, #3f46c7);
+  background-color:  #ffffff;
   
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 30px;
   gap: 30px;
 
   container-type: inline-size;

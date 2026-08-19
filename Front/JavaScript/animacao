@@ -15,4 +15,4 @@ $(function() {
       }, 1250 );
     }
   });
-    <script src="../JavaScript/animacao"type="text/javascript"></script>
+   

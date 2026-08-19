@@ -1,13 +1,5 @@
-* body {
-    height: 100vh;
-  background: linear-gradient(to bottom, #d9d9d9, #3f46c7);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  display: flex;
-    justify-content: center;
-    align-items:center ;
-    height: 100vh;
+*body{
+  background-color: #4446af;
 }
 .logo{
     position: absolute;
