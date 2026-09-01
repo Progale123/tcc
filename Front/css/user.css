@@ -12,9 +12,27 @@ body {
 
 #bloco {
     flex: 1;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3vh 3vw;
+}
+
+.retangulo-tbl {
+    width: 75%;
+    max-width: 1000px;
+    min-width: 600px;
+    min-height: 70vh;
+    max-height: 70vh;
+    border-radius: 20px;
+    padding: 2vh 2vw;
+    background: white;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 table {
@@ -22,29 +40,30 @@ table {
     border-collapse: collapse;
 }
 
-.retangulo-tbl {
-    width: 60vw;
-    max-width: 100vw;
-    min-height: 20vh;
-    border-radius: 20px;
-    padding: 20px 20px;
-    background: white;
-    backdrop-filter: blur(6px);
-}
-
 .top-tbl {
+    height: clamp(60px, 9vh, 90px);
     font-weight: bold;
-    font-family: segoe ui;
-    border: none;
-    height: 90px;
+    font-family: "Segoe UI", sans-serif;
     color: gray;
 }
 
 .tbl-sec {
+    height: clamp(50px, 7vh, 75px);
     font-weight: bold;
-    font-family: segoe ui;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.tbl-sec-extra {
+    height: clamp(50px, 7vh, 75px);
+    font-weight: bold;
+    font-family: "Segoe UI", sans-serif;
+    display: none;
+}
+
+td,
+th {
+    text-align: center;
     border: none;
-    height: 75px;
 }
 
 .ativo {
@@ -55,52 +74,48 @@ table {
     color: red;
 }
 
-td {
-    text-align: center;
-    border: none;
-}
-
 .editar-btn {
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  cursor: pointer; 
-  color: blue;
-  text-decoration: none;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
 }
 
 .ver-mais {
-    max-width: 80px;
-    margin-left: 20px;
-    margin-top: 20px;
-    padding: 5px;
+    width: fit-content;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    padding: 5px 10px;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: segoe ui;
+    font-family: "Segoe UI", sans-serif;
     background-color: aqua;
     border-radius: 20px;
-    display: flex;
-    border-color: transparent;
+    border: none;
     cursor: pointer;
     text-decoration: none;
     color: black;
 }
 
 .novo-usu-container {
-    justify-content: center;
-    max-width: 120px;
-    margin-top: 100px;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 5vh;
 }
 
 .novo-usu {
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: bold;
-    font-family: segoe ui;
+    font-family: "Segoe UI", sans-serif;
     background-color: aqua;
     border-radius: 20px;
-    border-color: transparent;
+    border: none;
     cursor: pointer;
     text-decoration: none;
     color: black;
