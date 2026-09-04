@@ -93,12 +93,12 @@ th {
     align-items: center;
     font-weight: bold;
     font-family: "Segoe UI", sans-serif;
-    background-color: aqua;
+    background-color: #4446af;
     border-radius: 20px;
     border: none;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .novo-usu-container {
@@ -113,10 +113,10 @@ th {
     padding: 5px 10px;
     font-weight: bold;
     font-family: "Segoe UI", sans-serif;
-    background-color: aqua;
+    background-color: #4446af;
     border-radius: 20px;
     border: none;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white;
 }

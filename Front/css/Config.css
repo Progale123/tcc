@@ -12,6 +12,7 @@ body {
 
 #container {
   background-color: white;
+  margin-left: 350px;
   width: 800px;
   padding: 30px;
   border-radius: 10px;
